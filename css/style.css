@@ -1,0 +1,230 @@
+@import url("./styleMobile.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fbead5;
+    background-position: center;
+    margin-bottom: 100px;
+    border-bottom: 3px #FF0000 solid;
+    color: #EF8D0A;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+header nav{
+    display: flex;
+    gap: 30px;
+}
+
+header nav a{
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav p{
+    font-size: larger;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    flex: 1;
+    gap: 36px;
+    margin-bottom: 100px;
+}
+
+.cards-card{
+    padding: 20px 10px 10px 10px;
+    background-color: #B54041;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+}
+
+.card-img{
+    width: 90%;
+    height: 80%;
+}
+
+.card-botao-texto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.textoDestaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #FFF;
+    background-color: #B54041;
+    margin-bottom: 100px;
+}
+
+.caixa-imagens{
+    display: flex;
+    justify-content: center;
+}
+
+.imagens{
+    border: 2px #B54041 solid;
+    height: 300px;
+    width: 50%;
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+
+.imagens img{
+    width: 100%;
+    height: 100%;
+}
+
+.caixa-mapa{
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+section iframe{
+    width: 65%;
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+
+.caixa-horarios{
+    background-color: #B54041;
+    height: 250px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.caixa-horarios img{
+    width: 150px;
+    height: 150px;
+    background-color: #FFF;
+    border-radius: 100%;
+}
+
+.cards-completos{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 0 20px 0 20px;
+}
+
+.card-completo{
+    display: grid;
+    grid-template-columns: 0% 19% 80%;
+    gap: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fbead5;
+    padding: 1em;
+}
+
+.card-completo img{
+    width: 100%;
+    height: 240px;
+    border-radius: 100%;
+}
+
+.card-completo h3{
+    padding: 0 2em;
+}
+
+.card-completo p{
+    padding: 0 2em;
+}
+
+.icone-Flutuante{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.icone-Flutuante img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #C0FF0c;
+}
+
+footer{
+    border-top: 2px solid #F00;
+    height: 150px;
+    background-color: #F3B823;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer nav a{
+    padding: 2px 0;
+}
+
+.footer-logo{
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+}
+
+.Logo-nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px
+}
+
+.Logo-nome h3{
+    font-weight: 100;
+}
+
+.links-footer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.links-footer:hover{
+    text-decoration: underline;
+}
+
+.icone-redes-sociais{
+    width: 30px;
+}
+

@@ -1,3 +1,4 @@
 # Site-Microempreendedor
 
-''' A'''
+Site produzido em conjunto com microempreendedores da região do alto tietê
+
